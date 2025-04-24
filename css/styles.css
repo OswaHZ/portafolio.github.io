@@ -11,8 +11,8 @@ body {
   
   .slider-container {
     position: relative;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -28,7 +28,7 @@ body {
   .slider-buttons {
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
