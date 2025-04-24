@@ -11,8 +11,8 @@ body {
   
   .slider-container {
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;

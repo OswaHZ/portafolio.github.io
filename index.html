@@ -3,10 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portafolio de Imágenes</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/styles.css" />
+  
+  <title>Portafolio de Imágenes</title>
+
+  <header style="text-align: center; margin-top: 20px;">
+    <h1 style="font-size: 3rem; margin: 0;">PORTAFOLIO</h1>
+    <p style="font-size: 1.2rem; color: #777;">OsvaGFX</p>
+  </header>
+  
 </head>
 <body>
+
+  <h2 style="font-size: 2rem; margin: 0;">CREADORES DE CONTENIDO</h2>
+  <br>
+
+  <div class="creador" style="display: flex; align-items: center; margin-bottom: 20px;">
+    
+    <img src="img/canales/sabo.jpg" alt="Foto de perfil" style="width: 80px; height: 80px; border-radius: 50%; margin-right: 20px; margin-right: 10px"/>
+    <div>
+      <p style="margin: 0; font-size: 1.2rem; font-weight: bold;">Sabo</p>
+      <p style="margin: 0; color: #555;">500k suscriptores</p>
+    </div>
+
+    <img src="img/canales/sabo.jpg" alt="Foto de perfil" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 50px; margin-right: 10px;"/>
+    <div>
+      <p style="margin: 0; font-size: 1.2rem; font-weight: bold;">Sabo</p>
+      <p style="margin: 0; color: #555;">500k suscriptores</p>
+    </div>
+
+    <!-- añadir otro mas
+    <img src="img/canales/sabo.jpg" alt="Foto de perfil" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 50px; margin-right: 10px;"/>
+    <div>
+      <p style="margin: 0; font-size: 1.2rem; font-weight: bold;">Sabo</p>
+      <p style="margin: 0; color: #555;">500k suscriptores</p>
+    </div> -->
+  </div>
+  
+
+ 
+<br>
+  <h2 style="font-size: 2rem; margin: 0;">TRABAJOS RECIENTES</h2>
 
   <div class="slider-container">
     <img id="mainImage" class="slider-image" alt="Imagen Principal" />
@@ -15,10 +53,10 @@
       <button onclick="changeImage(1)">⟩</button>
     </div>
   </div>
-
-  <div class="thumbnails" id="thumbnails">
-    <!-- Miniaturas generadas automáticamente -->
-  </div>
+  <br>
+  
+  <!-- <div class="thumbnails" id="thumbnails">
+  </div> -->
 
   <script src="js/script.js"></script>
 </body>
