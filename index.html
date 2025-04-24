@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Imágenes</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <h2>xd</h2>
+
+  <div class="slider-container">
+    <img id="mainImage" class="slider-image" alt="Imagen Principal" />
+    <div class="slider-buttons">
+      <button onclick="changeImage(-1)">⟨</button>
+      <button onclick="changeImage(1)">⟩</button>
+    </div>
+  </div>
+
+  <div class="thumbnails" id="thumbnails">
+    <!-- Miniaturas generadas automáticamente -->
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
