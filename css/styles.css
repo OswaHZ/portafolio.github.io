@@ -11044,3 +11044,24 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.canales .row.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.canales .col-md-6.col-lg-4.mb-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canales .col-md-6.col-lg-4.mb-5 img.img-fluid {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
